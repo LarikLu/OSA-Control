@@ -1,0 +1,26 @@
+# Exclude environment
+.venv/
+env/
+venv/
+
+# Exclude cashe
+__pycache__/
+*.pyc
+*.pyo
+
+.DS_Store
+Thumbs.db
+
+# Exclude measurements
+data/
+*.csv
+*.png
+
+.ipynb_checkpoints/
+
+*.log
+*.bak
+
+
+.vscode/
+.idea/
